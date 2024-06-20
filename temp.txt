@@ -1,0 +1,22 @@
+
+yesBtn.addEventListener('click', () => {
+    const newLink = document.createElement('a');
+    newLink.href = 'new-page.html'; // replace with your new HTML page URL
+    newLink.target = '_self'; // open in same tab
+
+    // remove all existing content
+    content.innerHTML = '';
+    title.innerHTML = '';
+    buttons.style.display = 'none';
+
+    // add the new link
+    content.appendChild(newLink);
+})
+
+
+yesBtn.addEventListener('click', () => {
+    title.innerHTML = 'Thanks For Accepting!'
+    buttons.style.display = 'none';
+})
+
+    title.innerHTML = 'Thanks For Accepting!'

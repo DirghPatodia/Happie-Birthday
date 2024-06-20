@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EA9E8D;
+    background-image: url("evie-s-bSVGnUCk4tk-unsplash.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 80%;
+}
+
+.main {
+    position: relative;
+}
+
+.content {
+   
+    background: #cd5d67;
+    background-image: url("back4.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 24px;
+}
+img {
+    border-radius: 40%;
+  }
+.title {
+    font-size: 3rem;
+    font-family: 'Niconne', cursive;
+    
+    
+
+    
+}
+
+.btn-group {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+.btn-group a {
+    width: 90px;
+    height: inherit;
+    background: #EA9E8D;
+    color: #fff;
+    border: 2px solid #000000;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 24px;
+    position: absolute;
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #000000b4;
+    
+}
+
+.btn-group a:first-child {
+    margin-left: -150px;
+}
+
+.btn-group a:last-child {
+    margin-right: -150px;
+}
+
+.btn-group a:last-child:hover {
+    opacity: 0;
+    cursor: default;
+}
+.text_top{
+    font-size: 4rem;
+  text-align: center;
+height: 20vh;
+line-height: 7vh;
+  color:    #ececb1;
+     font-family: 'Niconne', cursive;
+  font-weight: 700;
+text-shadow: 2px 2px 0px #eb452b, 
+            3px 3px 0px #e69728, 
+            4px 4px 0px #46b59b, 
+            5px 5px 0px #017e7f, 
+            6px 6px 0px #052939;
+           
+}
+
